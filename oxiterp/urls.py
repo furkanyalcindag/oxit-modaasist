@@ -51,7 +51,7 @@ urlpatterns = [
     path('api/token/refresh', TokenRefreshView.as_view()),
     path('competitor', CreateCompetitor.as_view()),
     path('patlaks/', include('patlaks.urls')),
-    path('booqe/', include('booqe.urls')),
+    path('modaasist/', include('booqe.urls')),
 
 
 
